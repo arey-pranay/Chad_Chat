@@ -5,8 +5,8 @@ const Letters = stringg.split("/");
 // const Letters = ["a", "b", "c", "d"];
 const AboutUs = () => {
   return (
-    <div className="flex-col sm:flex-row sm:flex ">
-      <section className="bg-[#770099]  sm:w-1/4 justify-center sm:h-screen flex">
+    <div className="flex-col max-h-screen sm:flex-row sm:flex ">
+      <section className="bg-[#770099]  sm:w-1/4 justify-center flex">
         <div className=" h-fit my-auto text-center">
           <p className="sm:text-5xl text-3xl font-mono p-7 sm:p-12 sm:border-2 border-gray-500 text-gray-50 sm:-rotate-90 text-center">
             {Letters.map((letter, index) => (

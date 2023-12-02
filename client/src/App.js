@@ -11,6 +11,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import AboutUs from "./components/AboutUs";
 import "./VideoBGanimation.css";
+import WhiteBoard from "./WhiteBoard/WhiteBoard.jsx";
 // const options = {
 //   particles: {
 //     number: {
@@ -445,7 +446,8 @@ function App() {
           } w-full md:w-2/3 `}
         >
           <div className="h-1/2 w-full ">
-            <Canvas />
+            <WhiteBoard />
+            {/* <Canvas /> */}
           </div>
           <div
             className={` w-full
@@ -482,6 +484,7 @@ function App() {
       <div className={`${joined ? "hidden" : "block"}`}>
         {" "}
         <AboutUs />
+        <div className="w-full h-full bg-black">Hey</div>
       </div>
     </>
   );
